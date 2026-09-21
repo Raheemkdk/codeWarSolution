@@ -21,10 +21,15 @@ describe("findAverage", () => {
 function findAverage(array) {
   // your code here
   let total = 0
+  if(array != ''){
       for(i = 0; i<= array.length-1; i++){
         total += array[i]
       }
-  console.log(total)
+//   console.log(total)
   console.log(total/array.length)
   return (total/array.length)
+    }
+  else{
+    return 0
+  }
 }
