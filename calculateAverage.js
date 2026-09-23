@@ -33,3 +33,11 @@ function findAverage(array) {
     return 0
   }
 }
+
+//New Solution
+if(array.length === 0){  //If the array is empty
+    return 0
+  }
+//Reduce method takes in a function has an argument (Higher function) and it needs an accumulator, current value as params
+return array.reduce((a,c) => a + c, 0)/array.length
+// 
