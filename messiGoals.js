@@ -11,5 +11,5 @@ Test.assertEquals(goals(43, 10, 5), 58)
 // Solution
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   // code goes here
-  return laLigaGoals += copaDelReyGoals +championsLeagueGoals
+  return laLigaGoals += copaDelReyGoals +championsLeagueGoals;
 }
