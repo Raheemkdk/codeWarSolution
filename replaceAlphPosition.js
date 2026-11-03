@@ -15,7 +15,7 @@ function alphabetPosition(text) {
   console.log(small)
   console.log(small.charCodeAt(0) - 96)
   for( let i = 0; i< small.length; i++){
-    if((small.charCodeAt(i) - 96) < 0){
+    if(small.charCodeAt(i) < 97 || small.charCodeAt(i) > 122){
       console.log('ignored')
     }
     else{
